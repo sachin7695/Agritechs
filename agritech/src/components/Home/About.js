@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/irr.jpg";
 import Tilt from "react-parallax-tilt";
-
+import iot from "../../Assets/iot.jpeg";
 
 
 function About() {
@@ -32,13 +32,14 @@ function About() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" />
             </Tilt>
           </Col>
         </Row>
         <Row>
         </Row>
       </Container>
+      <img src={iot} className="img-fluid1"/>
     </Container>
   );
 }

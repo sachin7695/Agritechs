@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import FeaturesCards from "./FeaturesCards";
 import irrigation from "../../Assets/Projects/irrigation.jpg";
+import iot from "../../Assets/iot.jpeg";
+import ph from "../../Assets/phealth.jpg";
+import yeild from "../../Assets/yeild.jpg";
 
 function Features() {
   return (
@@ -13,7 +16,7 @@ function Features() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <FeaturesCards
-              imgPath={irrigation}
+              imgPath={iot}
               isBlog={false}
               title="Soil Moisture Status"
               description="Knowing the soil moisture status enables highly efficient irrigation. So we keep a track of the soil moisture content of each sector of the farm in real-time through soil moisture sensors. "
@@ -36,7 +39,7 @@ function Features() {
 
           <Col md={4} className="project-card">
             <FeaturesCards
-              imgPath={irrigation}
+              imgPath={ph}
               isBlog={false}
               title="Plant health Status"
               description="To help the farmer to monitor all parts of the field at a glance and give more attention to the problematic areas, we maneuver a drone at regular intervals which takes in plant images, and with the help of deep learning it decides whether the plants are healthy or not. "
@@ -47,7 +50,7 @@ function Features() {
 
           <Col md={4} className="project-card">
             <FeaturesCards
-              imgPath={irrigation}
+              imgPath={yeild}
               isBlog={false}
               title="Crop Yield prediction"
               description="This model will act as a medium to provide the farmers with efficient information required to get high yields and thus maximize profits. This will give an approximation on how much amount of crop will be produced depending upon the given input. "

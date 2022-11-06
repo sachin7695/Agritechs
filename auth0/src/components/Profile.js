@@ -9,7 +9,7 @@ const Profile = () => {
                <button
                type="button"
                onClick={(e) => { e.preventDefault();
-               window.location.href='';
+               window.location.href='https://effulgent-treacle-831001.netlify.app/';
                }}
                > Continue</button>
             </article>
